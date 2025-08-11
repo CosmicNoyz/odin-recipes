@@ -1,0 +1,73 @@
+body {
+    background-color: hsl(269, 100%, 95%);
+    font-family:"Courier New", Courier, monospace;
+    font-size: 18px;
+    color: hsl(250, 80%, 20%);
+}
+
+a:link {
+    color: hsl(275, 95%, 45%);
+    text-decoration: none;
+}
+
+a:visited {
+    color: hsl(275, 25%, 35%);
+    text-decoration: none;
+}
+
+a:hover {
+    color: hsl(250, 80%, 20%);
+    text-decoration: underline;
+}
+
+h1 {
+    text-align: center;
+}
+
+li {
+    padding-left: 15px;
+}
+
+ul {
+    list-style-position: outside;
+    list-style-type: "🟅";
+}
+
+.steps li {
+    padding-bottom: 0.5em;
+}
+
+img {
+    border-radius: 25px;
+    display: block;
+    margin: auto;
+}
+
+.caption {
+    font-size: 12px;
+    text-align: right;
+    margin: 8px 20px 25px 0;
+}
+.link-button {
+    background-color: hsl(269, 100%, 95%);
+    text-align: center;
+    width: fit-content;
+    border-radius: 5px;
+    border-top: none;
+    border-left: none;
+    border-right: 2px solid hsla(250, 80%, 30%, 0.5);
+    border-bottom: 2px solid hsla(250, 80%, 30%, 0.5);
+    padding: 7px 7px 4px 7px;
+    margin: 0 auto 12px;
+}
+
+.content {
+    background-color: hsl(180, 100%, 97%);
+    width: 600px;
+    height: auto;
+    border-radius: 25px;
+    border-right: 5px solid hsla(250, 80%, 30%, 0.5);
+    border-bottom: 5px solid hsla(250, 80%, 30%, 0.5);
+    padding: 15px 30px;
+    margin: 40px auto;
+}
